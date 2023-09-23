@@ -1,0 +1,46 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+# Binary
+*.exe
+*.test
+*.prof
+
+# Log files
+*.log
+
+# Dependency directories (vendor is commonly used with Go 1.11 modules)
+vendor/
+
+
+# GoLand/IntelliJ IDEA related files
+.idea/
+
+# macOS
+.DS_Store
+
+# For SQL - Depends on the SQL tools and setups you're using
+*.sqlite # If you're using SQLite for development/testing
+*.db
+
+# Others
+*.swp # Vim swap files
+*.swo # Vim swap files
